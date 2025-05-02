@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjay - Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #fff;
+            color: #333;
+        }
+        header {
+            background-color: red;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 40px 20px;
+        }
+        .portfolio {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #eee;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background-color: red;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sanjay</h1>
+        <p>फ्रीलांसर | वीडियो और फोटो एडिटर</p>
+    </header>
+
+    <section>
+        <h2>मेरे बारे में</h2>
+        <p>नमस्ते! मैं संजय हूँ। मुझे वीडियो एडिटिंग, फोटो एडिटिंग और डिजिटल क्रिएटिव वर्क में रुचि है। मैं ऑनलाइन प्रोजेक्ट्स पर काम करता हूँ और क्वालिटी डिलीवरी में विश्वास रखता हूँ।</p>
+    </section>
+
+    <section>
+        <h2>मेरी स्किल्स</h2>
+        <ul>
+            <li>वीडियो एडिटिंग (Adobe Premiere Pro, CapCut)</li>
+            <li>फोटो एडिटिंग (Photoshop, Lightroom)</li>
+            <li>Microsoft Office (Word, Excel, PowerPoint)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>मेरे प्रोजेक्ट्स</h2>
+        <div class="portfolio">
+            <div class="card">
+                <h3>वेडिंग वीडियो एडिटिंग</h3>
+                <p>क्लाइंट के लिए शादी के वीडियो का क्रिएटिव कट तैयार किया।</p>
+            </div>
+            <div class="card">
+                <h3>Instagram Reels</h3>
+                <p>ट्रेंडिंग रील्स एडिट कीं, स्पेशल इफेक्ट्स के साथ।</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>संपर्क करें</h2>
+        <form>
+            <input type="text" placeholder="आपका नाम">
+            <input type="email" placeholder="ईमेल">
+            <textarea rows="4" placeholder="संदेश"></textarea>
+            <button type="submit">भेजें</button>
+        </form>
+    </section>
+
+    <footer>
+        &copy; 2025 संजय | सभी अधिकार सुरक्षित
+    </footer>
+</body>
+</html>
